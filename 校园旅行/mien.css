@@ -1,0 +1,123 @@
+﻿@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: Cx;
+	src: url(Font/Cx/Cx.ttf);
+}
+#head{
+	
+	position: relative;
+	border-radius: 10px;
+	border-color: darkslategray;
+	border-style: solid;
+	line-height: 200px;
+	font-family:Cx;
+	font-size: 80px;
+	text-align: center;
+/*	width: 100%;*/
+	height: 200px;
+	font-weight: 600;
+	background-color:khaki;
+	opacity: 1;
+/*	margin-bottom: px;*/
+}
+#ff{
+	position: absolute;
+	top:5px;
+	right:260px;
+	width: 60px;
+	height: 95%;
+	background-color:khaki;
+	background-position: right;
+}
+#pic{
+
+	width: 65%;
+	float: left;
+	text-align: center;
+}
+#txt{
+	width: 30%;
+/*	height: 550px;*/
+	float: left;
+/*	color: chartreuse;*/
+/*
+	background: linear-gradient(red, blue);	
+	background-clip: text;
+	color: transparent;
+*/
+/*	background-image: -webkit-gradient(linear, left 0, right 0, from(rgb(166, 4, 249)), to(rgb(251, 223, 11)));*/
+	 background: -webkit-linear-gradient(red, blue); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(red, blue); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(red, blue); /* Firefox 3.6 - 15 */
+    background: linear-gradient(red, blue); /* 标准的语法（必须放在最后） */
+               /*必需加前缀 -webkit- 才支持这个text值 */
+    -webkit-background-clip: text; 
+                /*text-fill-color会覆盖color所定义的字体颜色： */
+    -webkit-text-fill-color: transparent; 
+	margin-top: -20px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 24px;
+	font-family: Cx;
+/*	background-color: w;*/
+	position: relative;
+}
+#img{
+	
+	margin-top: -20px;
+	border-radius: 50px;
+	border-color: darkslategray;
+	border-style: solid;
+	width: 700px;
+	height: 450px;
+}
+#last{
+	border-style: solid;
+	background-color: silver;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-color: darkslategray;
+	width: 345px;
+	height: 40px;
+	text-align-last: center;
+	line-height: 40px;
+	display: inline-block;
+	font-family: Cx;
+	font-size: 30px;
+	font-weight: 600;
+}
+#next{
+	background-color: silver;
+	display: inline-block;
+	width: 345px;
+	height: 40px;
+	text-align-last: center;
+	line-height: 40px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-style: solid;
+	border-color: darkslategray;
+	font-family: Cx;
+	font-size: 30px;
+	font-weight: 600;
+	
+}
+#clear{
+	clear: both;
+}
+#ha{
+	text-align: center;
+}
+#headtxt{
+	float: left;
+	display: inline;
+	margin-left: 20px;
+}
+#headimg{
+	margin-left: 200px;
+	float: left;
+}
+#test{
+        font-family: Cx;
+}
